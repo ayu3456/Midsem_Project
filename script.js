@@ -155,12 +155,4 @@ function updateContainer() {
     }
   });
 }
-function changeBg() {
-  if (document.body.clientWidth < 700) {
-    header.style["background-image"] = "url(images/bg-header-mobile.svg)";
-  } else {
-    header.style["background-image"] = "url(images/bg-header-desktop.svg)";
-  }
-}
-changeBg();
-window.onresize = changeBg;
+
